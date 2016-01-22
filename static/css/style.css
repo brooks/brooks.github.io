@@ -1,0 +1,311 @@
+body {
+  color: #34495e;
+  margin: 0;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.231;
+}
+header,
+footer,
+section {
+  display: block;
+}
+a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  -webkit-transition: color 0.25s, background 0.25s;
+  -moz-transition: color 0.25s, background 0.25s;
+  -o-transition: color 0.25s, background 0.25s;
+  transition: color 0.25s, background 0.25s;
+}
+a:hover {
+  color: #4DCFFF;
+  text-decoration: none;
+}
+h1,
+.h1 {
+  font-size: 48px /* 64px */;
+}
+h2,
+.h2 {
+  font-size: 41px /* 52px */;
+}
+h3,
+.h3 {
+  font-size: 32px /* 40px */;
+}
+h4,
+.h4 {
+  font-size: 23px /* 29px */;
+}
+h5,
+.h5 {
+  font-size: 21px /* 28px */;
+}
+h6,
+.h6 {
+  font-size: 19px /* 24px */;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  line-height: 1.2em;
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+h3 {
+  font-weight: 700;
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+h4 {
+  font-weight: 500;
+  margin-top: 4px;
+}
+h5 {
+  font-weight: 500;
+}
+h6 {
+  font-weight: normal;
+}
+p {
+  font-size: 16px;
+  line-height: 1.722169;
+  /* 31px */
+}
+
+.column {
+  width: 66.66666666666666%;
+  margin-left: 16.666666666666664%;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.bg {
+  background-color: #666666;
+}
+.bordered {
+  border-style: solid;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  overflow-x: hidden;
+  color: #7f8c8d;
+  line-height: 1.29;
+}
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 10px;
+}
+.page-wrapper {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  overflow: hidden;
+  min-height: 100%;
+}
+body > section,
+header,
+footer {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  border: 0;
+  page-break-inside: avoid;
+  max-width: 100% !important;
+  vertical-align: middle;
+}
+img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: #2c3e50;
+}
+h1 {
+  font-weight: normal;
+}
+h3 {
+  font-weight: normal;
+}
+img {
+  -webkit-backface-visibility: hidden;
+}
+
+/**
+ * Header stylesheet  
+ * */
+
+header {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  z-index: 100;
+}
+header .brand {
+  font-size: 25px;
+  font-weight: normal;
+  color: #34495e;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #2c3e50;
+}
+
+section * {
+  z-index: 2;
+}
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: 50% 50% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 20;
+  filter: alpha(opacity=2000);
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+
+.header-sub {
+  color: #bdc3c7;
+  background-color: #1c201d;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.header-sub h1,
+.header-sub .h1,
+.header-sub h2,
+.header-sub .h2,
+.header-sub h3,
+.header-sub .h3,
+.header-sub h4,
+.header-sub .h4,
+.header-sub h5,
+.header-sub .h5,
+.header-sub h6,
+.header-sub .h6 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  color: white;
+}
+.header-sub h1 {
+  font-weight: 300;
+}
+.header-sub h3 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #ffffff;
+  font-weight: 300;
+}
+.header-sub h3 {
+  margin: 0 0 30px;
+}
+.header-sub .header {
+  margin-bottom: 65px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+  color: #ffffff;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.header-sub .header [class*="fui-"] {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.header-sub .background {
+  background-image: url("../../static/common-files/img/sunrise.jpg");
+  opacity: 20;
+  filter: alpha(opacity=2000);
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+/**
+ * Footer stylesheet  
+ * */
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.footer .brand {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.footer .text {
+  font-size: 14px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 80px;
+  line-height: 1.45;
+}
